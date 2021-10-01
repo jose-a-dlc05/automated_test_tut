@@ -1,0 +1,23 @@
+{
+	"name": "tests",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^4.17.1"
+	},
+	"scripts": {
+		"test": "npx jest",
+		"start": "node ./dist/server.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/jest": "^27.0.2",
+		"@types/node": "^16.10.2",
+		"jest": "^27.2.4",
+		"ts-jest": "^27.0.5"
+	}
+}
